@@ -1,0 +1,11 @@
+---- MSG_OSD_FAILURE Matches (10 in 9 files) ----
+decode_message in Message.cc (branches\aleung\security1\ceph\msg) :   case MSG_OSD_FAILURE:
+decode_message in Message.cc (src\msg) :   case MSG_OSD_FAILURE:
+Message.h (src\msg) line 32 : #define MSG_OSD_FAILURE      72
+Monitor::dispatch in Monitor.cc (branches\aleung\security1\ceph\mon) :     case MSG_OSD_FAILURE:
+Monitor::dispatch in Monitor.cc (src\mon) :     case MSG_OSD_FAILURE:
+MOSDFailure::MOSDFailure in MOSDFailure.h (branches\aleung\security1\ceph\messages) :     Message(MSG_OSD_FAILURE),
+MOSDFailure::MOSDFailure in MOSDFailure.h (src\messages) :     Message(MSG_OSD_FAILURE),
+OSDMonitor::dispatch in OSDMonitor.cc (branches\aleung\security1\ceph\mon) :   case MSG_OSD_FAILURE:
+OSDMonitor::preprocess_query in OSDMonitor.cc (src\mon) :   case MSG_OSD_FAILURE:
+OSDMonitor::prepare_update in OSDMonitor.cc (src\mon) :   case MSG_OSD_FAILURE:
